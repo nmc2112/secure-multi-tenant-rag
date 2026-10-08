@@ -1,0 +1,3 @@
+{"tenant":"acme","document_id":"refunds","content":"Customers may return unused products within 30 days of delivery. A receipt is required.","question":"How many days do customers have to return products?","expected_doc":"refunds"}
+{"tenant":"acme","document_id":"shipping","content":"Standard shipping within metropolitan France takes 3 to 5 business days.","question":"How long is standard shipping in France?","expected_doc":"shipping"}
+{"tenant":"acme","document_id":"support","content":"Support agents respond to priority tickets within 4 hours during business hours.","question":"What is the priority ticket response time?","expected_doc":"support"}

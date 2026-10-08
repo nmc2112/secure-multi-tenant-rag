@@ -1,0 +1,27 @@
+{
+  "dataset": "synthetic",
+  "retrieval_36_queries": {
+    "lexical": {
+      "recall_at_3": 0.3056,
+      "mrr_at_3": 0.2361,
+      "mean_latency_ms": 0.45,
+      "source": "earlier local run reported in conversation"
+    },
+    "semantic": {
+      "recall_at_3": 0.9444,
+      "mrr_at_3": 0.875,
+      "mean_latency_ms": 107.77,
+      "median_latency_ms": 66.84,
+      "source": "user local run"
+    }
+  },
+  "llm_18_queries": {
+    "llm_success": 16,
+    "fallback": 2,
+    "mean_api_latency_ms": 3216.15,
+    "fact_heuristic_original": 0.9444,
+    "fact_heuristic_regraded": 1.0,
+    "regrading_note": "Answer 16 accepted for minimum length question; original script required both 16 and character. Regrading not a new model run."
+  },
+  "limitations": "Small synthetic tests. Not proof of production readiness, hallucination resistance, or adversarial security."
+}
